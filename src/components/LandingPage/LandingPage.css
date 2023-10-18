@@ -1,0 +1,95 @@
+
+.b1{
+    background: #ffd89b;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f01b94, #1d0268);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f01b94, #1b0260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 800px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+/* ImageOverlay.css */
+
+.image-container {
+    position: relative;
+    width: 80%; /* Set the width and height as needed */
+    margin-left: 10%;
+    
+  }
+  
+  .image-overlay {
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    margin-top: 50px;
+    object-fit: cover; /* Maintain the aspect ratio of the image */
+    transition: filter 0.3s; /* Add a smooth transition effect */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 92%;
+    background-color: rgba(0, 0, 0, 0); /* Transparent overlay */
+    border-radius: 30px;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Text color for the overlay content */
+    opacity: 0; /* Initially hidden */
+    z-index: 2; /* Ensure the content is above the image */
+  }
+  p{
+    text-align: justify;
+    padding: 0 20px;
+  }
+ 
+  .image-overlay:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.7); 
+    opacity: 1;
+  }
+  .custom-button {
+    background-color: #f5f6f7;
+    box-shadow: 3px 3px 3px black;
+    color: #010101;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  
+    &:hover {
+      background-color: #070707;
+      color: #f5f6f7;
+      box-shadow: 1px 1px 1px white;
+    }
+  }
+  @media (max-width: 768px) {
+    .b1{
+      height: 300px;
+    }
+    h2{
+      font-size: 10px;
+    }
+    h5{
+      font-size: 7px;
+    }
+    p{
+      font-size: 5px;
+    }
+    
+    
+  }
+  
+  

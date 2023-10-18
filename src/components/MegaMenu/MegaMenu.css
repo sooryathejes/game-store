@@ -1,0 +1,40 @@
+
+
+.megamenu {
+    /* position: static; */
+  }
+  
+  .megamenu .dropdown-menu {
+    background: none;
+    border: none;
+    width: 500px;
+  }
+  
+  
+  /* #two{
+  margin-left: 600px;
+  } */
+  .w-1{
+  width: 100px;
+  margin-left: 140px;
+  }
+  .w-2{
+  width: 40px;
+  margin-left: 50px;
+  }
+  #m1{
+  width: 200px;
+  }
+  .navbar-toggler{
+  margin-left: 150px;
+  margin-top: 10px;
+  }
+  .navbar-nav{
+    margin-right: 400px;
+  }
+  h7{
+    color: aliceblue;
+  }
+  #z1{
+    background-color: black;
+  }
